@@ -1,0 +1,30 @@
+root = true
+
+[*]
+charset                  = utf-8
+end_of_line              = lf
+indent_size              = 4
+indent_style             = space
+insert_final_newline     = true
+trim_trailing_whitespace = true
+
+[*.tf]
+indent_size              = 2
+
+[*.yml]
+indent_size              = 2
+
+[*.{js,jsx,cjs,mjs,ts,tsx}]
+indent_size              = 2
+
+[*.json]
+indent_size              = 2
+
+[*.graphql]
+indent_size              = 2
+
+[*.css]
+indent_size              = 2
+
+[Makefile]
+indent_style             = tab
