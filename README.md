@@ -9,12 +9,13 @@ Give me a star ⭐️ if you like it!
 
 ## Terraform Setup Guide
 
-1. Install [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-2. Install aws [session manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html)
-3. Create and validate ssl certificate in ACM
-4. Create and deploy ECR [container](./docker/README.md)
-5. Deploy service
-6. Create dns record on cloudflare for load balancer
+1. Install [terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+2. Install [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+3. Install aws [session manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html) (optional)
+4. Create and validate ssl certificate in [ACM](https://docs.aws.amazon.com/res/latest/ug/acm-certificate.html)
+5. Create and deploy ECR [container](./docker/README.md)
+6. Deploy service
+7. Create dns record on cloudflare for load balancer
 
 #### Deploy the infrastructure
 ```bash
