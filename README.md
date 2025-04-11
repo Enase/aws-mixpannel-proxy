@@ -14,7 +14,7 @@ Give me a star ⭐️ if you like it!
 3. Install aws [session manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html) (optional)
 4. Create and validate ssl certificate in [ACM](https://docs.aws.amazon.com/res/latest/ug/acm-certificate.html)
 5. Create and deploy ECR [container](./docker/README.md)
-6. Deploy service
+6. Setup `terraform.tfvars` and deploy service
 7. Create dns record on cloudflare for load balancer
 
 #### Deploy the infrastructure
